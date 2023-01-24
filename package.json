@@ -1,0 +1,37 @@
+{
+  "name": "no-js-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js",
+    "build": "nodemon build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "npm": ">=9.2.0",
+    "node": ">=19.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "device-detector-js": "^3.0.3",
+    "express": "^4.18.2",
+    "got": "^12.5.3",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "file-type": "^18.0.0",
+    "imagemin-most-optimized-jpg": "^1.0.5",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.4.0",
+    "x-to-css": "^2.0.5"
+  }
+}

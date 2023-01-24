@@ -1,0 +1,23 @@
+@use "CONSTANTS" as const;
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    font-size: 1em;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+body {
+    color: const.$dark-grey;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    /*-webkit-font-smoothing: antialiased;*/
+}
+
+a {
+    color: const.$dark-grey;
+}

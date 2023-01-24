@@ -1,0 +1,32 @@
+@use "CONSTANTS" as const;
+
+.btn {
+    cursor: pointer;
+    outline: 0;
+    margin: 0;
+    color: const.$white;
+    background-color: const.$button-background;
+    border-color: const.$button-background;
+    display: inline-block;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 8px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    border-radius: 4px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+    color: const.$white;
+    background-color: const.$button-hover-background;
+    border-color: const.$button-hover-border;
+}
+
+.btn[value='undefined'] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

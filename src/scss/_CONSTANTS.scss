@@ -1,0 +1,36 @@
+// COLORS
+
+$blue: #0019af;
+$white: #fff;
+$black: #000;
+$dark-grey: #404041;
+$grey: #767677;
+$light-grey: #b0b0b1;
+$dark-smoke: #d0d0d1;
+$smoke: #e0e0e1;
+$white-smoke: #f5f5f5;
+$light-smoke: #fafafa;
+$gold: #feb846;
+
+$button-background: #0d6efd;
+$button-hover-background: #0b5ed7;
+$button-hover-border: #0a58ca;
+
+// BREAKPOINTS
+
+// 44rem === 440px in elisa world
+// less than 440 is just mobiles (portrait)
+// greater than 440 is everything above mobiles (portrait)
+$mobile: 27.5em;
+
+// less than 820 is mobiles, and most tablets (portrait)
+// greater than 820 is tablets (landscape), laptops and above
+$tablet: 52em;
+
+// less than 1240 is mobiles and tablets 
+// greater than 1240 is laptops and monitors etc.
+$laptop: 77.5em;
+
+// less than 1600 is all of the above
+// greater than 1600 is big laptops, monitors etc. (lots of width)
+$desktop: 100em;
