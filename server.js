@@ -120,14 +120,14 @@ const homePage = (userConfig, catalog = MEMORY.catalog) => {
 
             return prod ? `
             <div class="details storage color storage-${selectableIndex} color-${colorIndex}">
-                <img src="/images/height-350px/${prod.url}-${prod.color}" ${index > 5 ? `loading="lazy"` : ""} alt="${prod.name} ${prod.color}">
+                <img src="https://static.shop.paulbrowne.dev/images/height-350px/${prod.url}-${prod.color}" ${index > 5 ? `loading="lazy"` : ""} alt="${prod.name} ${prod.color}">
                 <h2>${prod.name} <small>${el[0]}Gb</small></h2>
                 <h3>${prod.price}€ ${prod.saving ? `<span class="reduced-from">${prod.price + prod.saving}€</span>` : ""}</h3>
                 <p class="monthly">or ${(prod.price / 36).toFixed(2)}€/month for 36 months</p>
                 ${showAvailability ? `<p class="availability">${getProductAvailabilityBySKU(prod.sku).available} available</p>` : ""}
             </div>` : `
             <div class="details storage color storage-${selectableIndex} color-${colorIndex} unavailable">
-                <img src="/images/height-350px/${product}-${el[1]}" ${index > 5 ? `loading="lazy"` : ""} alt="${productsArray[0].name} ${el[1]} unavailable">
+                <img src="https://static.shop.paulbrowne.dev/images/height-350px/${product}-${el[1]}" ${index > 5 ? `loading="lazy"` : ""} alt="${productsArray[0].name} ${el[1]} unavailable">
                 <h2>${productsArray[0].name} <small>${el[0]}Gb</small></h2>
                 <h3>Unavailable</h3>
             </div>`;

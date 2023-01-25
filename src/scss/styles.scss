@@ -98,11 +98,11 @@
 .color-5:checked~.colors .color-5:before,
 .color-6:checked~.colors .color-6:before,
 .color-7:checked~.colors .color-7:before {
-    content: url(/images/tick-white.svg);
+    content: url(https://static.shop.paulbrowne.dev/images/tick-white.svg);
 }
 
 .white:checked~.colors .white:before {
-    content: url(/images/tick-black.svg);
+    content: url(https://static.shop.paulbrowne.dev/images/tick-black.svg);
 }
 
 .storage-0:checked~.storage.storage-0,
@@ -248,7 +248,7 @@
                 z-index: 30;
                 width: 40px;
                 height: 40px;
-                background: url(/images/close.svg);
+                background: url(https://static.shop.paulbrowne.dev/images/close.svg);
                 background-size: 30px;
                 background-position: center;
 

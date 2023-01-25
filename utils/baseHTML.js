@@ -54,7 +54,7 @@ export const genericHTMLContainer = ({
             <meta name="msapplication-TileColor" content="#ffdc00">
             <meta name="theme-color" content="#ffdc00">
 
-            <link rel="stylesheet" href="/css/styles.css">
+            <link rel="stylesheet" href="https://static.shop.paulbrowne.dev/css/styles.css">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10,100;-10,200;-10,300;-10,400;-10,500;-10,600;-10,700;-10,800;-10,900;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
